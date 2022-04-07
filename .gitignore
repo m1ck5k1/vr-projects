@@ -11,6 +11,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# PEM files
+*.pem
+
 # Text - Error Logs & Notes
 *.txt
 
