@@ -4,6 +4,8 @@
   "description": "VR Projects",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/m1ck5k1/vr-projects/issues"
   },
-  "homepage": "https://github.com/m1ck5k1/vr-projects#readme"
+  "homepage": "https://github.com/m1ck5k1/vr-projects#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
