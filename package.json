@@ -1,0 +1,20 @@
+{
+  "name": "vr-projects",
+  "version": "1.0.0",
+  "description": "VR Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1ck5k1/vr-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1ck5k1/vr-projects/issues"
+  },
+  "homepage": "https://github.com/m1ck5k1/vr-projects#readme"
+}
