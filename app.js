@@ -1,6 +1,8 @@
-// Setup localhost SSL
-// https://www.kevinleary.net/self-signed-trusted-certificates-node-js-express-js/
-// https://support.apple.com/guide/keychain-access/change-the-trust-settings-of-a-certificate-kyca11871/mac
+/**
+ * Setup localhost SSL
+ * https://www.kevinleary.net/self-signed-trusted-certificates-node-js-express-js/
+ * https://support.apple.com/guide/keychain-access/change-the-trust-settings-of-a-certificate-kyca11871/mac
+ */
 
 /** Const Vars */
 const https = require('https');
@@ -14,8 +16,16 @@ const options = {
 };
 
 const server = https.createServer(options, function (req, res) {
-	res.writeHead(200);
-	res.end("VR Peeps\n");
+
+	res.writeHead(200, {
+		'Content-Type': 'text/html'
+	});
+
+	fs.readFile('webXR.html', function(err, content) {
+		res.write(content);
+		res.end();
+	});
+
 }).listen(443);
 
 console.log('Server listening on port 443');
