@@ -8,8 +8,8 @@ const fs = require('fs');
 const options = {
 	key: fs.readFileSync('./localhost.key'),
 	cert: fs.readFileSync('./localhost.cert'),
-	//requestCert: false,
-	//rejectUnauthorized: false
+	requestCert: false,
+	rejectUnauthorized: false
 };
 
 //const app = express();

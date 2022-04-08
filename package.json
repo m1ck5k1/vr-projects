@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/m1ck5k1/vr-projects#readme",
   "devDependencies": {
+    "express": "^4.17.3",
     "nodemon": "^2.0.15"
   }
 }
