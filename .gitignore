@@ -1,6 +1,7 @@
 # System Generated
 .DS_Store
 Thumbs.db
+*.swp
 
 # Logs
 logs
