@@ -12,7 +12,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-# PEM files
+# PEM, CERT & KEYfiles
+*.cert
+*.key
 *.pem
 
 # Text - Error Logs & Notes
